@@ -1,15 +1,9 @@
 # Text Recognition in Video
 
 
-The intelligent analysis of video data is currently in wide demand because a video is a major source of sensory data in our lives. Text is a prominent and direct source of information in video.  
-This project is aimed at harnessing the power of computer vision to implement text recognition in video.
-It is carried out as part of the Computer Vision course held at the Sapienza University of Rome.
+The intelligent analysis of video data is currently in wide demand because a video is a major source of sensory data in our lives. Text is a prominent and direct source of information in video. 
 
 ## Authors
-
-- Amad Salmon (@amadsalmon)
-- Arturo Calvera Tonin (@Arturo-00)
-
 
 ## Installing the required dependencies
 

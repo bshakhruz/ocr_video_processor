@@ -1,4 +1,5 @@
 ./output/*
+./input/*.mov
 
 .DS_Store
 .idea
