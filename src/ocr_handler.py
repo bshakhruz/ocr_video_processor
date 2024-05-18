@@ -7,6 +7,10 @@ from pathlib import Path
 from googletrans import Translator
 from PIL import ImageFont, ImageDraw, Image
 
+
+# Define the path to the font file relative to the package directory
+FONT_PATH = os.path.join(os.path.dirname(__file__), 'DejaVuSans-Bold.ttf')
+
 INPUT_DIR = "./input/"
 OUTPUT_DIR = "./output/"
 
@@ -172,7 +176,7 @@ class OCR_HANDLER:
         self.out_name = self.video_name + '_boxes' + self.out_extension
         self.translator = Translator()
         self.target_language = target_language
-        self.font_path = r'D:\Realtime-Text-Recognition-in-Video\DejaVuSans-Bold.ttf'
+        self.font_path = FONT_PATH
         if not os.path.isfile(self.font_path):
             raise FileNotFoundError(f"Font file not found: {self.font_path}")
     ########## EXTRACT FRAMES AND FIND WORDS #############

@@ -4,6 +4,7 @@ setup(
     name='ocr_video_processor',
     version='0.0.1',
     packages=find_packages(),
+    package_data={'': ['DejaVuSans-Bold.ttf']},  # Include the font file
     install_requires=[
         'opencv-python-headless',
         'numpy',

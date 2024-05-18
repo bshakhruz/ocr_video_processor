@@ -1,4 +1,4 @@
-from ocr_handler import *
+from src.ocr_handler import *
 
 print("Welcome to OCR video processer.")
 filename = input("ENTER FILENAME: ")
